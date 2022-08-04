@@ -5,7 +5,9 @@ https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-
 # General
 
 package.json - keeps track of app scripts and manage dependencies our Node app needs
+-"proxy" property - allows us to make requests to our Node server without having to provide the origin it is running on (3001) every time
 index.js - JavaScript file where our server will run
+needed to update to Node 14 with this "nvm install 14"
 
 
 # Express
