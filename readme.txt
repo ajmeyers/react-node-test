@@ -13,3 +13,12 @@ index.js - JavaScript file where our server will run
 Simple web server
 "npm i express" - command to install Express as dependency in order to use it
 "npm start" - will run our server
+
+# API Endpoint
+
+Want to use Node/Express as an API
+-Will give our React app data
+-Perform an operation on the data
+-Perform an operation only the server can do
+
+"res" - short for response
