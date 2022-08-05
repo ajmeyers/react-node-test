@@ -8,9 +8,11 @@ const app = express();
 
 /* API Endpoint */
 
+// req - object containing info about the HTTP request
+// res - used to send back the desired HTTP response
 app.get("/api", (req, res) => {
-    res.json({message: "Hello from server!"});
-})
+    res.json({ message: "Hello from server!" });
+});
 
 /* Confirmation our server is listening */
 
